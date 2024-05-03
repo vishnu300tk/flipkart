@@ -25,6 +25,8 @@ class BottomNavigationBarWidget extends StatelessWidget {
           items: const [
             BottomNavigationBarItem(
                 icon: Icon(Icons.home_outlined), label: 'Home'),
+              BottomNavigationBarItem(
+                icon: Icon(Icons.qr_code_rounded), label: 'Categories'),  
             
             BottomNavigationBarItem(
                 icon: Icon(Icons.notifications_none), label: 'Notification'),
